@@ -16,6 +16,12 @@ header .container{
 #profile > div{
     max-width: 384px;
 }
+#profile img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 #profile h1{
     margin-bottom: 8px;
     color: var(--text-color-primary);
